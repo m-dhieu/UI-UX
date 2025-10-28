@@ -7,8 +7,9 @@ import { SpendingScreen } from './components/SpendingScreen';
 import { SettingsSheet } from './components/SettingsSheet';
 import { BudgetLimitsSheet, BudgetLimits, CategorySettings } from './components/BudgetLimitsSheet';
 import { LoginScreen } from './components/LoginScreen';
-import { Toaster } from './components/ui/sonner';
-import { toast } from 'sonner@2.0.3';
+// import { Toaster } from './components/ui/sonner';
+// import { toast } from 'sonner@2.0.3';
+import { Toaster, toast } from 'sonner';
 
 type Screen = 'transactions' | 'overview' | 'spending' | 'send';
 
